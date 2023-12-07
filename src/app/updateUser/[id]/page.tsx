@@ -16,7 +16,7 @@ const UpdateUser = () => {
         </div>
 
         <div className="flex flex-col gap-1">
-          <label>Name</label>
+          <label>Age</label>
           <input className="w-full p-3 border rounded appearance-none" type="number" placeholder="Enter age" />
         </div>
 
