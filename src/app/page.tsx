@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useQuery, useMutation, QueryClient } from "@tanstack/react-query";
+import { useQuery, useMutation } from "@tanstack/react-query";
 import axios from "axios";
 
 export default function Home() {
