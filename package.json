@@ -6,12 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server:json": "concurrently \"json-server --watch db.json\" \"live-server\""
   },
   "dependencies": {
     "@tanstack/react-query": "^5.12.2",
     "@tanstack/react-query-devtools": "^5.12.2",
     "axios": "^1.6.2",
+    "concurrently": "^8.2.2",
+    "live-server": "^1.1.0",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",

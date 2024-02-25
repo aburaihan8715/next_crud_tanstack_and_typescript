@@ -30,6 +30,7 @@ export default function Home() {
             </div>
             <div className="flex gap-2 items-start">
               <UserDeleteBtn id={item?.id} userRefetch={userRefetch} />
+
               <Link href={`/updateUser/${item?.id}`}>
                 <button className="c-btn bg-green-600">update</button>
               </Link>

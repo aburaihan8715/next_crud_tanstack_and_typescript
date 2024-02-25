@@ -7,16 +7,10 @@
       "id": 1
     },
     {
-      "id": "0ac978fc-8061-441f-b2cd-ba3567fa2fd0",
+      "id": "fe9936b8-6fb9-4519-99ae-951c173efda6",
       "name": "babul",
       "email": "babul@gmail.com",
-      "age": "25"
-    },
-    {
-      "id": "4d118ef1-ed4e-4df4-9688-2496b1b02493",
-      "name": "cabul",
-      "email": "cabul@gmail.com",
-      "age": "63"
+      "age": "28"
     }
   ]
 }
